@@ -1,0 +1,32 @@
+<application>
+
+<name>Virtual File Explorer</name>
+<version>0.8</version>
+<description>Virtual File Explorer allows the viewing and editing of files in RAM!</description>	
+<license>license.html</license>
+
+	
+<menucontributions>
+	<contribution target="projectview">
+		<menu name="Virtual File System Explorer">
+			<action name="View..." handlerid="welcome" showresponse="true"></action>
+		</menu>
+	</contribution>
+	<contribution target="rdsview">
+		<menu name="Virtual File System Explorer">
+			<action name="View..." handlerid="welcome" showresponse="true"></action>
+		</menu>
+	</contribution>
+	<contribution target="outlineview">
+		<menu name="Virtual File System Explorer">
+			<action name="View..." handlerid="welcome" showresponse="true"></action>
+		</menu>
+	</contribution>		
+</menucontributions>
+	
+	<handlers>
+		<handler id="welcome" type="cfm" filename="loadFlash.cfm" />
+	</handlers>
+
+</application>
+
